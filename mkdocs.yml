@@ -1,13 +1,14 @@
 # Website settings. Replace the CAPITALIZED placeholders.
-site_name: PROJECT NAME
-site_description: One-line description of the project.
-site_author: YOUR NAME
-site_url: https://ORG-NAME.github.io/REPO-NAME/
-repo_url: https://github.com/ORG-NAME/REPO-NAME
+site_name: DooM 27 Shower Pods
+site_description: Offgrid low-cost solar shower pods.
+site_author: Tyler Disney
+site_url: https://mars-doom.github.io/shower-pods/
+repo_url: https://github.com/mars-doom/shower-pods/
 edit_uri: edit/main/docs/
 copyright: >
   Hardware CERN-OHL-W-2.0 · Docs CC BY-SA 4.0 ·
-  Made at the <a href="https://ORG-NAME.github.io/">Mars College Dept of Makers</a>
+  Made at the <a href="https://mars-doom.github.io/">Mars College Dept of Makers</a>
+
 
 # Page order in the left-hand menu (and in the PDF).
 nav:

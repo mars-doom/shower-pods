@@ -2,7 +2,7 @@
 
 <!-- This page is the home page of your documentation website. -->
 
-![Finished build](images/marsshowerpod_hero.png)
+![Finished build](images/journal_261018_concept1.png)
 
 MVP offgrid solar shower pod appropriate for rapid deployment community use in harsh environments.
 

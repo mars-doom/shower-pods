@@ -1,36 +1,48 @@
 # The Doom Shower Project Journal
 
+### 20261013 Project Brief
 
+This project is organized as a bare minimum objective with explorative stretch goals as time and serendipity permit. The minimum objective is to build 2 solar shower pods at Mars that are:
 
+- Wind sheltered
 
+- Very water efficient (~2.5gal/shower)
 
+- Safe (no scalding, no legionnaires, well lit, etc)
 
+- Deals with greywater reasonably well.
 
+The initial concept is for each pod to be constructed of two IBC totes stacked with a door cut in, a standing platform, and drain. The hot water "tanks" are to be individual 6" dia ABS tubes that are easily detached and placed in a separate solar charging device. The tube is easily carried and filled from a spigot or faucet, charged, and then plugged into the shower pod which has either a valve or vessel for taking in the hot water. 
 
-### 20261013 Initial Idea and Project Goals
+With individual hot water tanks, everyone can see after their own hot water and it is impossible for one person to (accidentally?) drain a communal hot water tank. 
 
-This is the minimum dent I aim to make at Mars 2027: >= two off-grid shower pods that run on the sun and use only a tiny bit of water. The design concept at present is:
+Minimum greywater strategy is TBD, I need to learn more about how greywater has been dealt with in the past and what the plan is this year. 
 
-- Each pod is built from two IBC Totes stacked, with a door and a standing platform.
+![showerconcept](images/journal_261018_concept1.jpg)
 
-- Detachable clay/plaster panels for UV protection and aesthetics? Lathe over 1/2" plywood? Burlapcrete? (Just burlap?)
+#### Stretch Goals
 
-- The HW tanks are decoupled from the pods to be appropriate for a community. The design challenge here is, how to avoid creating social friction? ("Frank used all the hot water AGAIN!").
+- Build a recirculating shower system based on https://www.instructables.com/Showerloop/
 
-  - Individual HW tanks, charged in batch heaters separately. v1 Charger tanks are 2.5g or 5g HDPE plastic 'tanks' (6" dia pipe).
-  - Whoever wants a shower gets a tank, fills it, charges it, and uses it.
-  - The tanks plug into the shower pod (either dump into a holding tank in the pod, or a quick-connect to shower head/faucet).
-  - Gravity fed with push-to-open valve for max. water efficiency (I get a week out of 5gal with a push-to-open valve).
+- Exterior cladding to UV protect the totes (mud plaster panels, burlapcrete, salvaged paneling, etc).
 
-- Questions:
+- Occupied/nonoccupied lights
 
-  - What is current practice for greywater? I think I saw leach field connections in pictures for dumping kitchen water?
-  - Connect to greywater dump lines? Blue boy it? Collect for hydroponics projects? (v2/stretch goal is to build a reed bed greywater treatment bed to return the water to non-potable use quality).
+- HW tank insulated storage so you can have your shower at night after charging during the day
 
-Future Features / Stretch Goals:
+- A mechanical advantage system to lift the tanks into position
 
-- Direct solar electric heating, or main Camp array surplus harvesting (tap into the microgrid) to charge larger tanks.
-- Make it sexy. Red light/green light for occupied/unoccupied, vibe lights, open the ceiling with clear poly roof for star-showering, etc.
+- Direct-PV water heating with surplus energy during the day (controls for suprlus harvesting as well as temperature control. People could fill their personal tanks from a main Domestic HW Tank.)
+
+#### Questions/Design features to explore:
+
+- How hot will the tubes get, and how quickly?
+
+- Under what conditions do the tubes scald?
+
+- Are there thermostatic valves that function without high pressure? 
+
+- Is it worth it to have a pressure charging system, or better to just have it gravity feed?
 
 Documentation/Contribution Deliverables:
 
@@ -38,10 +50,6 @@ Documentation/Contribution Deliverables:
 - Retrospective on what worked and what didn't
 - Surprising outcomes/effects (good/bad/weird)
 - Teach workshops for others to build their own?
-
-
-
-
 
 #### Some reference builds:
 
