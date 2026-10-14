@@ -2,7 +2,7 @@
 
 <!-- This page is the home page of your documentation website. -->
 
-![Finished build](images/journal_261018_concept1.png)
+![Finished build](images/journal_261018_concept1.jpg)
 
 MVP offgrid solar shower pod appropriate for rapid deployment community use in harsh environments.
 
@@ -39,5 +39,3 @@ build steps so a builder understands *why* each step matters.
 - [Design notes](design-notes.md)
 - [Project Journal](journal.md)
 - 
-
- 
