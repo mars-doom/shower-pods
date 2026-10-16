@@ -30,10 +30,10 @@ Offgrid solar shower pods.
 ## Documentation
 
 - [Overview](docs/index.md)
+- [Design notes](docs/design-notes.md)
 - [Bill of materials](BOM.csv)
 - [Assembly guide](docs/assembly.md)
 - [Operation and maintenance](docs/operation.md)
-- [Design notes](docs/design-notes.md)
 - [Journal](docs/journal.md)
 - [Design files](cad/)
 - [Test data](testing/)
