@@ -2,40 +2,27 @@
 
 <!-- This page is the home page of your documentation website. -->
 
-![Finished build](images/journal_261018_concept1.jpg)
+![ConceptImage](images/journal_261018_concept1.jpg)
 
-MVP offgrid solar shower pod appropriate for rapid deployment community use in harsh environments.
 
-## Status
+## Project Status: Early Design
 
-**Prototype.** WIP, not built yet.
+## Project Summary and Goals
+
+The intent of this project is to build low-cost, self-contained, durable shower pods appropriate for remote and offgrid locations. This is the project of Tyler Disney, a Maker-in-Residence at Mars College 2027. 
+
+
 
 ## Specs
 
-|               |                                    |
-| ------------- | ---------------------------------- |
-| Approx. cost  | $                                  |
-| Build time    | hours                              |
-| Skill level   | beginner / intermediate / advanced |
-| Key tools     |                                    |
-| Key materials |                                    |
+- 
 
-## How it works
-
-Two or three paragraphs, with a diagram if it helps. Explain the principle before the
-build steps so a builder understands *why* each step matters.
-
-## Before you start
-
-- Skills you'll need
-- Safety considerations
-- Site or climate assumptions (this was designed for the Colorado Desert: hot, dry, sunny)
 
 ## Documentation
 
+- [Design notes](design-notes.md)
 - [Bill of materials](bom.md)
 - [Assembly guide](assembly.md)
 - [Operation and maintenance](operation.md)
-- [Design notes](design-notes.md)
 - [Project Journal](journal.md)
 - 
