@@ -9,7 +9,11 @@ title: Index
 
 **Maker:** Tyler Disney · Mars College Dept of Makers, 2027
 
+## Documentation
 
+- [How It Works](how-it-works.md)
+- [Project Log](log.md)
+- [Build It Yourself](build-it.md)
 
 **Brief Summary:**
 Offgrid solar shower pods. The intent of this project is to build low-cost, self-contained, durable shower pods appropriate for remote and offgrid locations. This is the project of Tyler Disney, a Maker-in-Residence at Mars College 2027.
@@ -37,11 +41,14 @@ Once working prototypes are operational, the remainder of the project is to expl
 - Centralized DHW tank with surplus PV production
 - Thermosiphon solar HW heating elements
 
+## References
+
+Sources of ideas and inspiration for this build:
+
+- [48v PV Water Distillation YT](https://www.youtube.com/watch?v=8D7_pEdMu-Q&t=11s)
+- [Two-Tote Shower Stall Build Video YT](https://www.youtube.com/watch?v=XP12uxLF4ZU&t=1s)
+- [Showerloop Recirculating Shower DIY Instructables](https://www.instructables.com/Showerloop/)
+- [Recirculating shower paper (PDF)](https://github.com/mars-doom/shower-pods/blob/main/files/references/recirculatingshower_Paper.pdf)
 
 
-## Documentation
-
-- [How It Works](how-it-works.md)
-- [Project Log](log.md)
-- [Build It Yourself](build-it.md)
 
