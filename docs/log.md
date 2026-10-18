@@ -1,15 +1,10 @@
+---
+---
 # Log
 
 ## Where I started
 
-<!--
-Write this near the beginning. A paragraph or two.
 
-- What were you hoping to make, and why?
-- What did success look like in your head?
-- What did you already know, and what were you going to have to figure out?
-- Any early sketches? Photos of them are perfect here.
--->
 
 ### 2026-10-13 · Project brief
 
@@ -57,18 +52,7 @@ Tons of good ideas in this video: [https://www.youtube.com/watch?v=XP12uxLF4ZU&t
 
 ## How it went
 
-<!--
-Add an entry whenever something happens: a decision, a breakthrough, a failure,
-a trip to the hardware store, a test. A few lines and a photo is a great entry.
-Add new entries at the bottom so the story reads in order.
 
-Copy this pattern:
-
-### 2027-01-20 · Short title
-What happened, and what you learned.
-
-![What the photo shows](images/log-2027-01-20-first-sketch.jpg)
--->
 
 ### 2026-10-18 · Update
 
@@ -76,12 +60,3 @@ Working on the CMS.
 
 ## Where it landed
 
-<!--
-Write this at the end of your residency.
-
-- What state is it in now? Finished, still in use, half-built, abandoned?
-- What worked? What didn't?
-- What surprised you?
-- What would you do differently, or what would you tell someone attempting this?
-- What's next for it?
--->
