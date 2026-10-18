@@ -1,0 +1,187 @@
+# Pages CMS configuration for mars-doom/shower-pods
+# Edit at https://app.pagescms.org  ·  Docs: https://pagescms.org/docs/configuration/
+
+# ---- Where uploads go ----
+media:
+  # Photos for docs pages: saved to docs/images/, written into pages as images/name.jpg
+  - name: images
+    label: Photos and diagrams
+    input: docs/images
+    output: images
+    rename: safe
+    extensions: [jpg, jpeg, png, webp, svg, gif]
+
+  # README sits at the repo root, so its image links need docs/images/name.jpg
+  - name: readme_images
+    label: Photos (README)
+    input: docs/images
+    output: docs/images
+    rename: safe
+    extensions: [jpg, jpeg, png, webp, svg, gif]
+
+  - name: cad_source
+    label: CAD source files
+    input: cad/source
+    output: cad/source
+
+  - name: cad_exports
+    label: CAD exports (STEP, DXF, PDF, STL)
+    input: cad/exports
+    output: cad/exports
+
+  - name: testing
+    label: Test data
+    input: testing
+    output: testing
+
+# ---- What can be edited ----
+content:
+  # The journal is the most-edited page, so it sits at the top of the sidebar.
+  - name: journal
+    label: Journal
+    type: file
+    path: docs/journal.md
+    format: yaml-frontmatter
+    operations: { delete: false }
+    fields:
+      - name: body
+        label: Project journal
+        description: >
+          Add each entry as a heading like "### 20261020 Short title".
+          Name photos journal_YYMMDD_description.jpg so they sort by date.
+        type: rich-text
+        options: { format: markdown, media: images, switcher: true }
+
+  - name: docs
+    label: Documentation
+    type: group
+    items:
+      - name: overview
+        label: Overview
+        type: file
+        path: docs/index.md
+        format: yaml-frontmatter
+        operations: { delete: false }
+        fields:
+          - name: body
+            label: Overview (home page of the site)
+            type: rich-text
+            options: { format: markdown, media: images, switcher: true }
+
+      - name: design_notes
+        label: Design notes
+        type: file
+        path: docs/design-notes.md
+        format: yaml-frontmatter
+        operations: { delete: false }
+        fields:
+          - name: body
+            label: Design notes
+            description: Goals, decisions, calcs, and what didn't work.
+            type: rich-text
+            options: { format: markdown, media: images, switcher: true }
+
+      - name: assembly
+        label: Assembly guide
+        type: file
+        path: docs/assembly.md
+        format: yaml-frontmatter
+        operations: { delete: false }
+        fields:
+          - name: body
+            label: Assembly guide
+            description: >
+              One section per step with a photo each, named by step (step04-mount.jpg).
+              This page has "Watch out" callouts; edit them in Source mode.
+            type: rich-text
+            options: { format: markdown, media: images, switcher: true }
+
+      - name: operation
+        label: Operation and maintenance
+        type: file
+        path: docs/operation.md
+        format: yaml-frontmatter
+        operations: { delete: false }
+        fields:
+          - name: body
+            label: Operation and maintenance
+            type: rich-text
+            options: { format: markdown, media: images, switcher: true }
+
+  # Spreadsheet editor. The website's BOM page is generated from this file.
+  - name: bom
+    label: Bill of materials
+    type: file
+    path: BOM.csv
+    format: datagrid
+    operations: { delete: false }
+
+  - name: readme
+    label: Project front page (README)
+    type: file
+    path: README.md
+    format: yaml-frontmatter
+    operations: { delete: false }
+    fields:
+      - name: body
+        label: README
+        description: Shown on the GitHub repo page. Keep it short and link to the docs.
+        type: rich-text
+        options: { format: markdown, media: readme_images, switcher: true }
+
+  - name: changelog
+    label: Changelog
+    type: file
+    path: CHANGELOG.md
+    format: yaml-frontmatter
+    operations: { delete: false }
+    fields:
+      - name: body
+        label: Changelog
+        type: rich-text
+        options: { format: markdown, media: false, switcher: true }
+
+  - name: advanced
+    label: Advanced
+    type: group
+    items:
+      - name: site_config
+        label: Website settings (mkdocs.yml)
+        type: file
+        path: mkdocs.yml
+        format: code
+        operations: { delete: false }
+
+      - name: cad_index
+        label: Design files index (cad/README.md)
+        type: file
+        path: cad/README.md
+        format: yaml-frontmatter
+        operations: { delete: false }
+        fields:
+          - name: body
+            label: Design files index
+            type: rich-text
+            options: { format: markdown, media: false, switcher: true }
+
+      - name: testing_index
+        label: Test log (testing/README.md)
+        type: file
+        path: testing/README.md
+        format: yaml-frontmatter
+        operations: { delete: false }
+        fields:
+          - name: body
+            label: Test log
+            type: rich-text
+            options: { format: markdown, media: false, switcher: true }
+
+# ---- Commits ----
+settings:
+  commit:
+    identity: user
+    templates:
+      create: "Add {path} (via Pages CMS)"
+      update: "Update {path} (via Pages CMS)"
+      delete: "Delete {path} (via Pages CMS)"
+      rename: "Rename {oldPath} to {newPath} (via Pages CMS)"
