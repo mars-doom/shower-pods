@@ -21,17 +21,17 @@ content:
     format: code
     operations: { delete: false }
 
-  - name: log
-    label: Log
-    type: file
-    path: docs/log.md
-    format: code
-    operations: { delete: false }
-
   - name: how_it_works
     label: How it works
     type: file
     path: docs/how-it-works.md
+    format: code
+    operations: { delete: false }  
+
+  - name: log
+    label: Log
+    type: file
+    path: docs/log.md
     format: code
     operations: { delete: false }
 

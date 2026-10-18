@@ -12,8 +12,8 @@ copyright: >
 # Pages, in menu order.
 nav:
   - Summary: index.md
-  - Log: log.md
   - How it works: how-it-works.md
+  - Log: log.md
   - Build it: build-it.md
 
 # ---- Shared Dept of Makers setup. No need to edit below here. ----
@@ -36,7 +36,6 @@ theme:
         icon: material/brightness-7
         name: Light mode
   features:
-    - navigation.tabs
     - navigation.footer
     - navigation.top
     - search.highlight
