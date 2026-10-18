@@ -1,8 +1,10 @@
 ---
 ---
+---
+
+---
+
 # Mars Shower Pods
-
-
 
 Offgrid solar shower pods.
 
@@ -11,13 +13,9 @@ Offgrid solar shower pods.
 **Maker:** Tyler Disney · Mars College Dept of Makers, 2027 residency
 **Documentation site:** [https://mars-doom.github.io/shower-pods/](https://mars-doom.github.io/shower-pods/)
 
-## Status
+## Status: In Design
 
 
-
-&nbsp;
-
-**Prototype.** Built once, tested for X weeks. Not yet replicated.
 
 ## Specs
 
@@ -50,8 +48,6 @@ Open an issue using the **Build report** template. Replications are the best pro
 the documentation works, and they get listed here.
 
 ### Confirmed builds
-
-
 
 - None yet.
 
