@@ -1,5 +1,6 @@
 # Pages CMS: edit this project at https://app.pagescms.org without using Git.
-# Pages open in a plain Markdown editor, which saves exactly what you type.
+# Doc pages open in a visual editor (switch to Source with the toggle).
+# Each doc page needs a small frontmatter block at the top: ---, title: ..., ---
 
 media:
   - name: images
@@ -18,22 +19,46 @@ content:
     label: Summary
     type: file
     path: docs/index.md
-    format: code
+    format: yaml-frontmatter
     operations: { delete: false }
-
-  - name: how_it_works
-    label: How it works
-    type: file
-    path: docs/how-it-works.md
-    format: code
-    operations: { delete: false }  
+    fields:
+      - name: title
+        label: Page title
+        type: string
+      - name: body
+        label: Page
+        type: rich-text
+        options: { format: markdown, media: images, switcher: true }
 
   - name: log
     label: Log
     type: file
     path: docs/log.md
-    format: code
+    format: yaml-frontmatter
     operations: { delete: false }
+    fields:
+      - name: title
+        label: Page title
+        type: string
+      - name: body
+        label: Page
+        type: rich-text
+        options: { format: markdown, media: images, switcher: true }
+
+  - name: how_it_works
+    label: How it works
+    type: file
+    path: docs/how-it-works.md
+    format: yaml-frontmatter
+    operations: { delete: false }
+    fields:
+      - name: title
+        label: Page title
+        type: string
+      - name: body
+        label: Page
+        type: rich-text
+        options: { format: markdown, media: images, switcher: true }
 
   - name: parts
     label: Parts list
@@ -46,8 +71,16 @@ content:
     label: Build it
     type: file
     path: docs/build-it.md
-    format: code
+    format: yaml-frontmatter
     operations: { delete: false }
+    fields:
+      - name: title
+        label: Page title
+        type: string
+      - name: body
+        label: Page
+        type: rich-text
+        options: { format: markdown, media: images, switcher: true }
 
   - name: advanced
     label: Setup
