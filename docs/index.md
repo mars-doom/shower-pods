@@ -1,4 +1,4 @@
----, title: Summary, ---
+
 
 # Mars Shower Pods
 
@@ -18,6 +18,7 @@ A few sentences is plenty. Some questions to get you going:
 Replace hero.jpg with your best photo. Upload it under Media, then
 change the file name in the line above to match.
 -->
+
 **Brief Summary:**
 Offgrid solar shower pods. The intent of this project is to build low-cost, self-contained, durable shower pods appropriate for remote and offgrid locations. This is the project of Tyler Disney, a Maker-in-Residence at Mars College 2027.
 
