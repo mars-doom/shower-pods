@@ -1,10 +1,10 @@
 ---
 ---
+---
+
+---
+
 # Log
-
-## Where I started
-
-
 
 ### 2026-10-13 · Project brief
 
@@ -50,13 +50,7 @@ Minimum greywater strategy is TBD, I need to learn more about how greywater has 
 
 Tons of good ideas in this video: [https://www.youtube.com/watch?v=XP12uxLF4ZU&t=1s](https://www.youtube.com/watch?v=XP12uxLF4ZU&t=1s)
 
-## How it went
 
 
 
-### 2026-10-18 · Update
-
-Working on the CMS.
-
-## Where it landed
 
