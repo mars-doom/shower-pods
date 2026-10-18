@@ -1,31 +1,33 @@
-# Mars Shower Pods
+---
+---
+---
 
-<!-- One paragraph: what it is, who it's for, and why it exists. -->
+---
+
+# Mars Shower Pods
 
 Offgrid solar shower pods.
 
-![Finished build](docs/images/marsshowerpod_hero.png)
+![](docs/images/mars-pods-hero.jpg)
 
 **Maker:** Tyler Disney · Mars College Dept of Makers, 2027 residency
-**Documentation site:** https://mars-doom.github.io/shower-pods/
+**Documentation site:** [https://mars-doom.github.io/shower-pods/](https://mars-doom.github.io/shower-pods/)
 
-## Status
+## Status: In Design
 
-<!-- Be honest. Pick one and add a sentence. -->
 
-<!-- Concept | Prototype | Working (built once) | Replicated (built by others) -->
-
-**Prototype.** Built once, tested for X weeks. Not yet replicated.
 
 ## Specs
 
-|               |                                    |
+
+|  |  |
 | ------------- | ---------------------------------- |
-| Approx. cost  | $                                  |
-| Build time    | hours                              |
-| Skill level   | beginner / intermediate / advanced |
-| Key tools     |                                    |
-| Key materials |                                    |
+| Approx. cost | $ |
+| Build time | hours |
+| Skill level | beginner / intermediate / advanced |
+| Key tools |  |
+| Key materials |  |
+
 
 ## Documentation
 
@@ -46,8 +48,6 @@ Open an issue using the **Build report** template. Replications are the best pro
 the documentation works, and they get listed here.
 
 ### Confirmed builds
-
-<!-- - Name, place, date, link to photos -->
 
 - None yet.
 
