@@ -1,9 +1,8 @@
+---
+---
 # Mars Shower Pod
 
-<!-- This page is the home page of your documentation website. -->
-
-![ConceptImage](images/journal_261018_concept1.jpg)
-
+![](images/mars-pods-hero.jpg)
 
 ## Project Status: Early Design
 
@@ -17,7 +16,6 @@ The intent of this project is to build low-cost, self-contained, durable shower 
 
 - 
 
-
 ## Documentation
 
 - [Design notes](design-notes.md)
@@ -26,3 +24,4 @@ The intent of this project is to build low-cost, self-contained, durable shower 
 - [Operation and maintenance](operation.md)
 - [Project Journal](journal.md)
 - 
+
