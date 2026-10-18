@@ -6,20 +6,15 @@
 
 - 
 
-## 
+
 
 ## Step 1: Short imperative title
 
-![Description of what the photo shows](images/step01-example.jpg)
 
-What to do, in plain sentences. Reference parts by their BOM id, like (BOM #2).
-
-!!! warning "Watch out"
-    The mistake we made here and how to avoid it.
 
 ## Step 2: Short imperative title
 
-![Description](images/step02-example.jpg)
+
 
 Instructions.
 
