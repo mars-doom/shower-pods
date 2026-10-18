@@ -1,3 +1,7 @@
+---
+title: Build it
+---
+
 # Build it yourself
 
 <!--

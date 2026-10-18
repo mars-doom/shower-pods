@@ -1,6 +1,7 @@
 # Pages CMS: edit this project at https://app.pagescms.org without using Git.
 # Doc pages open in a visual editor (switch to Source with the toggle).
-# Each doc page needs a small frontmatter block at the top: ---, title: ..., ---
+# Each doc page starts with a frontmatter block (---, title: ..., ---). The title must never
+# be empty: an empty block is saved as ---/--- and the page then fails to open.
 
 media:
   - name: images
@@ -25,6 +26,9 @@ content:
       - name: title
         label: Page title
         type: string
+        required: true
+        default: Summary
+        description: Keep this filled in. If it's empty, Pages CMS can't reopen the page.
       - name: body
         label: Page
         type: rich-text
@@ -40,6 +44,9 @@ content:
       - name: title
         label: Page title
         type: string
+        required: true
+        default: Log
+        description: Keep this filled in. If it's empty, Pages CMS can't reopen the page.
       - name: body
         label: Page
         type: rich-text
@@ -55,6 +62,9 @@ content:
       - name: title
         label: Page title
         type: string
+        required: true
+        default: How it works
+        description: Keep this filled in. If it's empty, Pages CMS can't reopen the page.
       - name: body
         label: Page
         type: rich-text
@@ -77,6 +87,9 @@ content:
       - name: title
         label: Page title
         type: string
+        required: true
+        default: Build it
+        description: Keep this filled in. If it's empty, Pages CMS can't reopen the page.
       - name: body
         label: Page
         type: rich-text
