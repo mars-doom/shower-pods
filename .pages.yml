@@ -36,21 +36,18 @@ media:
 
 # ---- What can be edited ----
 content:
+  # All Markdown files open in a plain Markdown editor: no frontmatter needed, and
+  # MkDocs callouts, tables and image links are saved exactly as typed.
+  # To add a photo: upload it under Media, then type ![description](images/name.jpg)
+  # (README uses docs/images/name.jpg).
+
   # The journal is the most-edited page, so it sits at the top of the sidebar.
   - name: journal
     label: Journal
     type: file
     path: docs/journal.md
-    format: yaml-frontmatter
+    format: code
     operations: { delete: false }
-    fields:
-      - name: body
-        label: Project journal
-        description: >
-          Add each entry as a heading like "### 20261020 Short title".
-          Name photos journal_YYMMDD_description.jpg so they sort by date.
-        type: rich-text
-        options: { format: markdown, media: images, switcher: true }
 
   - name: docs
     label: Documentation
@@ -60,53 +57,29 @@ content:
         label: Overview
         type: file
         path: docs/index.md
-        format: yaml-frontmatter
+        format: code
         operations: { delete: false }
-        fields:
-          - name: body
-            label: Overview (home page of the site)
-            type: rich-text
-            options: { format: markdown, media: images, switcher: true }
 
       - name: design_notes
         label: Design notes
         type: file
         path: docs/design-notes.md
-        format: yaml-frontmatter
+        format: code
         operations: { delete: false }
-        fields:
-          - name: body
-            label: Design notes
-            description: Goals, decisions, calcs, and what didn't work.
-            type: rich-text
-            options: { format: markdown, media: images, switcher: true }
 
       - name: assembly
         label: Assembly guide
         type: file
         path: docs/assembly.md
-        format: yaml-frontmatter
+        format: code
         operations: { delete: false }
-        fields:
-          - name: body
-            label: Assembly guide
-            description: >
-              One section per step with a photo each, named by step (step04-mount.jpg).
-              This page has "Watch out" callouts; edit them in Source mode.
-            type: rich-text
-            options: { format: markdown, media: images, switcher: true }
 
       - name: operation
         label: Operation and maintenance
         type: file
         path: docs/operation.md
-        format: yaml-frontmatter
+        format: code
         operations: { delete: false }
-        fields:
-          - name: body
-            label: Operation and maintenance
-            type: rich-text
-            options: { format: markdown, media: images, switcher: true }
 
   # Spreadsheet editor. The website's BOM page is generated from this file.
   - name: bom
@@ -120,26 +93,15 @@ content:
     label: Project front page (README)
     type: file
     path: README.md
-    format: yaml-frontmatter
+    format: code
     operations: { delete: false }
-    fields:
-      - name: body
-        label: README
-        description: Shown on the GitHub repo page. Keep it short and link to the docs.
-        type: rich-text
-        options: { format: markdown, media: readme_images, switcher: true }
 
   - name: changelog
     label: Changelog
     type: file
     path: CHANGELOG.md
-    format: yaml-frontmatter
+    format: code
     operations: { delete: false }
-    fields:
-      - name: body
-        label: Changelog
-        type: rich-text
-        options: { format: markdown, media: false, switcher: true }
 
   - name: advanced
     label: Advanced
@@ -156,25 +118,15 @@ content:
         label: Design files index (cad/README.md)
         type: file
         path: cad/README.md
-        format: yaml-frontmatter
+        format: code
         operations: { delete: false }
-        fields:
-          - name: body
-            label: Design files index
-            type: rich-text
-            options: { format: markdown, media: false, switcher: true }
 
       - name: testing_index
         label: Test log (testing/README.md)
         type: file
         path: testing/README.md
-        format: yaml-frontmatter
+        format: code
         operations: { delete: false }
-        fields:
-          - name: body
-            label: Test log
-            type: rich-text
-            options: { format: markdown, media: false, switcher: true }
 
 # ---- Commits ----
 settings:
