@@ -1,134 +1,71 @@
-# Pages CMS configuration for mars-doom/shower-pods
-# Edit at https://app.pagescms.org  ·  Docs: https://pagescms.org/docs/configuration/
+# Pages CMS: edit this project at https://app.pagescms.org without using Git.
+# Pages open in a plain Markdown editor, which saves exactly what you type.
 
-# ---- Where uploads go ----
 media:
-  # Photos for docs pages: saved to docs/images/, written into pages as images/name.jpg
   - name: images
-    label: Photos and diagrams
+    label: Photos
     input: docs/images
-    output: images
-    rename: safe
+    output: images            # how pages link to them: images/name.jpg
+    rename: safe              # lowercase, no spaces
     extensions: [jpg, jpeg, png, webp, svg, gif]
+  - name: files
+    label: Files
+    input: files
+    output: files
 
-  # README sits at the repo root, so its image links need docs/images/name.jpg
-  - name: readme_images
-    label: Photos (README)
-    input: docs/images
-    output: docs/images
-    rename: safe
-    extensions: [jpg, jpeg, png, webp, svg, gif]
-
-  - name: cad_source
-    label: CAD source files
-    input: cad/source
-    output: cad/source
-
-  - name: cad_exports
-    label: CAD exports (STEP, DXF, PDF, STL)
-    input: cad/exports
-    output: cad/exports
-
-  - name: testing
-    label: Test data
-    input: testing
-    output: testing
-
-# ---- What can be edited ----
 content:
-  # All Markdown files open in a plain Markdown editor: no frontmatter needed, and
-  # MkDocs callouts, tables and image links are saved exactly as typed.
-  # To add a photo: upload it under Media, then type ![description](images/name.jpg)
-  # (README uses docs/images/name.jpg).
-
-  # The journal is the most-edited page, so it sits at the top of the sidebar.
-  - name: journal
-    label: Journal
+  - name: index
+    label: Summary
     type: file
-    path: docs/journal.md
+    path: docs/index.md
     format: code
     operations: { delete: false }
 
-  - name: docs
-    label: Documentation
-    type: group
-    items:
-      - name: overview
-        label: Overview
-        type: file
-        path: docs/index.md
-        format: code
-        operations: { delete: false }
-
-      - name: design_notes
-        label: Design notes
-        type: file
-        path: docs/design-notes.md
-        format: code
-        operations: { delete: false }
-
-      - name: assembly
-        label: Assembly guide
-        type: file
-        path: docs/assembly.md
-        format: code
-        operations: { delete: false }
-
-      - name: operation
-        label: Operation and maintenance
-        type: file
-        path: docs/operation.md
-        format: code
-        operations: { delete: false }
-
-  # Spreadsheet editor. The website's BOM page is generated from this file.
-  - name: bom
-    label: Bill of materials
+  - name: log
+    label: Log
     type: file
-    path: BOM.csv
+    path: docs/log.md
+    format: code
+    operations: { delete: false }
+
+  - name: how_it_works
+    label: How it works
+    type: file
+    path: docs/how-it-works.md
+    format: code
+    operations: { delete: false }
+
+  - name: parts
+    label: Parts list
+    type: file
+    path: parts.csv
     format: datagrid
     operations: { delete: false }
 
-  - name: readme
-    label: Project front page (README)
+  - name: build_it
+    label: Build it
     type: file
-    path: README.md
-    format: code
-    operations: { delete: false }
-
-  - name: changelog
-    label: Changelog
-    type: file
-    path: CHANGELOG.md
+    path: docs/build-it.md
     format: code
     operations: { delete: false }
 
   - name: advanced
-    label: Advanced
+    label: Setup
     type: group
     items:
+      - name: readme
+        label: Repo front page (README)
+        type: file
+        path: README.md
+        format: code
+        operations: { delete: false }
       - name: site_config
-        label: Website settings (mkdocs.yml)
+        label: Site settings (mkdocs.yml)
         type: file
         path: mkdocs.yml
         format: code
         operations: { delete: false }
 
-      - name: cad_index
-        label: Design files index (cad/README.md)
-        type: file
-        path: cad/README.md
-        format: code
-        operations: { delete: false }
-
-      - name: testing_index
-        label: Test log (testing/README.md)
-        type: file
-        path: testing/README.md
-        format: code
-        operations: { delete: false }
-
-# ---- Commits ----
 settings:
   commit:
     identity: user

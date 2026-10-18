@@ -1,69 +1,58 @@
-# Website settings. Replace the CAPITALIZED placeholders.
+# ---- Your project (fill these in once) ----
 site_name: DooM 27 Shower Pods
 site_description: Offgrid low-cost solar shower pods.
 site_author: Tyler Disney
 site_url: https://mars-doom.github.io/shower-pods/
-repo_url: https://github.com/mars-doom/shower-pods/
+repo_url: https://github.com/mars-doom/shower-pods
 edit_uri: edit/main/docs/
 copyright: >
-  Hardware CERN-OHL-W-2.0 · Docs CC BY-SA 4.0 ·
-  Made at the <a href="https://mars-doom.github.io/">Mars College Dept of Makers</a>
+  Made at the Mars College Dept of Makers ·
+  Hardware CERN-OHL-W-2.0 · Docs CC BY-SA 4.0
 
-
-# Page order in the left-hand menu (and in the PDF).
+# Pages, in menu order.
 nav:
-  - Overview: index.md
-  - Bill of materials: bom.md
-  - Assembly: assembly.md
-  - Operation: operation.md
-  - Design notes: design-notes.md
-  - Journal: journal.md
+  - Summary: index.md
+  - Log: log.md
+  - How it works: how-it-works.md
+  - Build it: build-it.md
 
-# ---- Shared Dept of Makers styling. Makers shouldn't need to edit below here. ----
+# ---- Shared Dept of Makers setup. No need to edit below here. ----
+hooks:
+  - tools/makers.py          # builds the parts and files lists
+
 theme:
   name: material
-  font:
-    text: Source Sans 3
-    code: Source Code Pro
   palette:
     - scheme: default
-      primary: custom
-      accent: custom
+      primary: black
+      accent: blue
       toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+        icon: material/brightness-4
+        name: Dark mode
     - scheme: slate
-      primary: custom
-      accent: custom
+      primary: black
+      accent: blue
       toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+        icon: material/brightness-7
+        name: Light mode
   features:
-    - navigation.instant
-    - navigation.top
+    - navigation.tabs
     - navigation.footer
-    - content.action.edit
+    - navigation.top
     - search.highlight
-    - toc.follow
-  icon:
-    repo: fontawesome/brands/github
-
-extra_css:
-  - stylesheets/makers.css
 
 plugins:
   - search
-  - table-reader:
-      data_path: "."
 
 markdown_extensions:
   - admonition
   - attr_list
-  - md_in_html
   - tables
   - toc:
       permalink: true
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
+  - pymdownx.magiclink       # bare links like https://... become clickable
+  - pymdownx.superfences:    # lets ```mermaid blocks draw diagrams
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

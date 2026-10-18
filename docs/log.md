@@ -1,0 +1,87 @@
+# Log
+
+## Where I started
+
+<!--
+Write this near the beginning. A paragraph or two.
+
+- What were you hoping to make, and why?
+- What did success look like in your head?
+- What did you already know, and what were you going to have to figure out?
+- Any early sketches? Photos of them are perfect here.
+-->
+
+### 2026-10-13 · Project brief
+
+This project is organized as a bare minimum objective with explorative stretch goals as time and serendipity permit. The minimum objective is to build 2 solar shower pods at Mars that are:
+
+- Wind sheltered
+- Very water efficient (~2.5gal/shower)
+- Safe (no scalding, no legionnaires, well lit, etc)
+- Deals with greywater reasonably well.
+
+The initial concept is for each pod to be constructed of two IBC totes stacked with a door cut in, a standing platform, and drain. The hot water "tanks" are to be individual 6" dia ABS tubes that are easily detached and placed in a separate solar charging device. The tube is easily carried and filled from a spigot or faucet, charged, and then plugged into the shower pod which has either a valve or vessel for taking in the hot water.
+
+With individual hot water tanks, everyone can see after their own hot water and it is impossible for one person to (accidentally?) drain a communal hot water tank.
+
+Minimum greywater strategy is TBD, I need to learn more about how greywater has been dealt with in the past and what the plan is this year.
+
+![showerconcept](images/journal_261018_concept1.jpg)
+
+#### Stretch goals
+
+- Build a recirculating shower system based on [https://www.instructables.com/Showerloop/](https://www.instructables.com/Showerloop/)
+- Exterior cladding to UV protect the totes (mud plaster panels, burlapcrete, salvaged paneling, etc).
+- Occupied/nonoccupied lights
+- HW tank insulated storage so you can have your shower at night after charging during the day
+- A mechanical advantage system to lift the tanks into position
+- Direct-PV water heating with surplus energy during the day (controls for suprlus harvesting as well as temperature control. People could fill their personal tanks from a main Domestic HW Tank.)
+
+#### Questions/design features to explore
+
+- How hot will the tubes get, and how quickly?
+- Under what conditions do the tubes scald?
+- Are there thermostatic valves that function without high pressure?
+- Is it worth it to have a pressure charging system, or better to just have it gravity feed?
+
+#### Documentation/contribution deliverables
+
+- Build Manual
+- Retrospective on what worked and what didn't
+- Surprising outcomes/effects (good/bad/weird)
+- Teach workshops for others to build their own?
+
+#### Some reference builds
+
+Tons of good ideas in this video: [https://www.youtube.com/watch?v=XP12uxLF4ZU&t=1s](https://www.youtube.com/watch?v=XP12uxLF4ZU&t=1s)
+
+## How it went
+
+<!--
+Add an entry whenever something happens: a decision, a breakthrough, a failure,
+a trip to the hardware store, a test. A few lines and a photo is a great entry.
+Add new entries at the bottom so the story reads in order.
+
+Copy this pattern:
+
+### 2027-01-20 · Short title
+What happened, and what you learned.
+
+![What the photo shows](images/log-2027-01-20-first-sketch.jpg)
+-->
+
+### 2026-10-18 · Update
+
+Working on the CMS.
+
+## Where it landed
+
+<!--
+Write this at the end of your residency.
+
+- What state is it in now? Finished, still in use, half-built, abandoned?
+- What worked? What didn't?
+- What surprised you?
+- What would you do differently, or what would you tell someone attempting this?
+- What's next for it?
+-->

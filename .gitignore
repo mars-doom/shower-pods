@@ -1,6 +1,5 @@
-# Built website and PDF (generated automatically, don't commit)
+# Generated website and PDF
 site/
-*.pdf.tmp
 build/
 
 # CAD backups and temp files
@@ -16,16 +15,14 @@ build/
 ~$*
 *.autosave
 *-backups/
-*.kicad_prl
-fp-info-cache
 
-# Video: host on YouTube/Vimeo instead
+# Video: host on YouTube/Vimeo and link it
 *.mp4
 *.mov
 *.avi
 *.mkv
 
-# Raw camera files: archive on Zenodo or a drive instead
+# Raw camera files: archive elsewhere
 *.CR2
 *.CR3
 *.NEF
@@ -34,7 +31,7 @@ fp-info-cache
 *.RAF
 *.HEIC
 
-# OS and editor clutter
+# Clutter
 .DS_Store
 Thumbs.db
 desktop.ini
