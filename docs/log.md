@@ -19,8 +19,6 @@ With individual hot water tanks, everyone can see after their own hot water and 
 
 Minimum greywater strategy is TBD, I need to learn more about how greywater has been dealt with in the past and what the plan is this year.
 
-![showerconcept](images/journal_261018_concept1.jpg)
-
 #### Stretch goals
 
 - Build a recirculating shower system based on [https://www.instructables.com/Showerloop/](https://www.instructables.com/Showerloop/)

@@ -26,4 +26,4 @@ What to do.
 !!! warning "Watch out"
     The mistake to avoid here.
 -->
-Instructions coming soon.
+Well I need to build it myself first...
