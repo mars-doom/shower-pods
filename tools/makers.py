@@ -3,7 +3,7 @@ Dept of Makers project helpers.
 
 This file does two jobs:
   1. It's an MkDocs hook (listed under `hooks:` in mkdocs.yml). When the site builds,
-     it fills in {{ parts_list }} and {{ files_list }} on the How it works page.
+     it fills in {{ parts_list }} and {{ files_list }} on the Design page.
   2. tools/build_pdf.py imports it so the PDF shows the same things.
 
 Makers don't need to edit this.

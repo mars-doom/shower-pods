@@ -52,10 +52,10 @@ content:
         type: rich-text
         options: { format: markdown, media: images, switcher: true }
 
-  - name: how_it_works
-    label: How it works
+  - name: design
+    label: Design
     type: file
-    path: docs/how-it-works.md
+    path: docs/design.md
     format: yaml-frontmatter
     operations: { delete: false }
     fields:
@@ -63,7 +63,7 @@ content:
         label: Page title
         type: string
         required: true
-        default: How it works
+        default: Design
         description: Keep this filled in. If it's empty, Pages CMS can't reopen the page.
       - name: body
         label: Page
