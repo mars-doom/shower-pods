@@ -1,8 +1,13 @@
 ---
 title: Log
 ---
-
 # Log
+
+
+
+&nbsp;
+
+&nbsp;
 
 ### 2026-10-13 · Project brief
 
@@ -48,5 +53,6 @@ Tons of good ideas in this video: [https://www.youtube.com/watch?v=XP12uxLF4ZU&t
 
 
 
+&nbsp;
 
-
+&nbsp;
