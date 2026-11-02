@@ -1,4 +1,4 @@
-# Mars Shower Pods
+# Shower Pods
 
 Offgrid low-cost solar shower pods.
 
