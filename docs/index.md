@@ -2,7 +2,7 @@
 title: Index
 ---
 
-# Mars Shower Pods
+# Shower Pods
 
 ![Mars shower pods](images/mars-pods-hero.jpg)
 
