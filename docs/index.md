@@ -1,10 +1,9 @@
 ---
 title: Index
 ---
-
 # Shower Pods
 
-![Mars shower pods](images/mars-pods-hero.jpg)
+![](images/mars-shower-pod-blueprint.jpg)
 
 **Status:** Early design 
 
@@ -38,11 +37,13 @@ Build 1-2 shower pods that are:
 
 Once working prototypes are operational, the remainder of the project is to explore improvements:
 
-- Build a Showerloop (recirculating shower water with a pump, sand and charcoal filter, and UV sterilization).
 - Build a contained greywater treatment cell.
 - Occupied/nonoccupied lights.
 - Centralized DHW tank with surplus PV production
 - Thermosiphon solar HW heating elements
+- Vermifiltration
+- Solar distillation
+- Robotic water removal...
 
 ## References
 
