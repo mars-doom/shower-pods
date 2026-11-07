@@ -41,3 +41,25 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Tells the org hub (ORG.github.io) this project changed, so it rebuilds now
+  # instead of waiting for its nightly run. Needs a HUB_DISPATCH_TOKEN secret
+  # (best set once for the whole org); without it this step just skips.
+  notify-hub:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send project-updated to the hub
+        env:
+          HUB_TOKEN: ${{ secrets.HUB_DISPATCH_TOKEN }}
+          HUB_REPO: ${{ github.repository_owner }}/${{ github.repository_owner }}.github.io
+        run: |
+          if [ -z "$HUB_TOKEN" ]; then
+            echo "::notice::HUB_DISPATCH_TOKEN is not set; the hub will pick this up on its nightly run."
+            exit 0
+          fi
+          curl -fsS -X POST \
+            -H "Authorization: Bearer $HUB_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/$HUB_REPO/dispatches" \
+            -d "{\"event_type\":\"project-updated\",\"client_payload\":{\"repo\":\"$GITHUB_REPOSITORY\"}}"
