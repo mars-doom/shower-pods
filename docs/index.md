@@ -3,7 +3,7 @@ title: Index
 ---
 # Shower Pods
 
-![](images/mars-shower-pod-blueprint.jpg)
+![Shower pod design model, front view](images/showerpods-courtyard.jpg)
 
 **Status:** Early design 
 
@@ -13,8 +13,6 @@ title: Index
 
 **Brief Summary:**
 Offgrid solar shower pods. The intent of this project is to build low-cost, self-contained, durable shower pods appropriate for remote and offgrid locations. This is the project of Tyler Disney, a Maker-in-Residence at Mars College 2027.
-
-![Shower pod design model, front view](images/showerpods-courtyard.jpg)
 
 ## Pages
 
