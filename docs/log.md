@@ -9,6 +9,22 @@ title: Log
 
 &nbsp;
 
+### 2026-11-07 · Design model
+
+Created a Blender model of the design and an initial parts list for the minimum viable shower pod.
+
+The concept is the bare minimum: a working shower pod that we can build on from there.
+
+![Shower pod, front view](images/showerpods-courtyard.jpg)
+
+![Shower pod, back view with the drain and sump](images/showerpods-drain.jpg)
+
+### 2026-10-28 Build links
+
+- [pressurized abs hot water build](https://www.youtube.com/watch?v=dG2HK9JsAjw)
+
+- 
+
 ### 2026-10-13 · Project brief
 
 This project is organized as a bare minimum objective with explorative stretch goals as time and serendipity permit. The minimum objective is to build 2 solar shower pods at Mars that are:

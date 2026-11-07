@@ -13,6 +13,8 @@ Each pod is built from two IBC totes stacked with a door cut in, a standing plat
 
 With individual hot water tanks, everyone can see after their own hot water and it is impossible for one person to (accidentally?) drain a communal hot water tank.
 
+![Shower pod design model, front view](images/showerpods-courtyard.jpg)
+
 <!--
 Then show what it's made of and how the pieces fit together. Any of these work:
 
